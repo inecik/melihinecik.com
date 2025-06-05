@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Remaining -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melih İnecik">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Melih İnecik",
+      "alternateName": ["Melih İnecik", "Melih Inecik", "melih inecik"],
+      "jobTitle": "",
+      "url": "https://melihinecik.com",
+      "image": "https://melihinecik.com/images/your-photo.jpeg",
+      "sameAs": [
+        "https://tr.linkedin.com/in/melih1necik",
+        "https://www.instagram.com/melihinecik",
+        "https://twitter.com/m_inecik",
+      ]
+    }
+    </script>
+    <title>Melih İnecik</title>   <!-- will be overwritten by JS -->
+    <style>
+        :root {
+            --primary-color: #212121;
+            --accent-color: #797979;
+            --text-color: #212121;
+            --light-gray: #00fdff;
+            --line-color: #929292;
+            --transition-speed: 0.1s;
+
+        }
+
+        body {
+            font-family: 'Lora', 'Georgia', serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-gray);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 80px auto;
+            padding: 0 40px;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 25px;
+            margin-bottom: -5px;
+            border: 3px solid var(--primary-color);
+            object-fit: cover;
+            transition: transform var(--transition-speed);
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin: 25px 0 15px;
+            font-weight: 700;
+            letter-spacing: -0.25px;
+        }
+
+        .position {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            color: #e67e22;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-size: 0.9rem;
+            margin: 20px 0;
+        }
+
+        .bio-section {
+            background: white;
+            padding: 40px 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin: 40px 0;
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            text-align: justify;
+            hyphens: auto;
+            margin: 0 auto;
+            max-width: 720px;
+        }
+
+        .bio p {
+            margin-bottom: 1.5em;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 50px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 5px 15px;
+            border: 2px solid var(--primary-color);
+            border-radius: 30px;
+            transition: all var(--transition-speed);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+        }
+
+        .social-link:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .no-blue-link {
+            color: var(--text-color); /* Sets the link color to the same as the main text */
+            text-decoration: none; /* Removes underline from the link */
+        }
+
+        .no-blue-link:hover {
+            color: var(--accent-color); /* Optional: changes color on hover to accent color */
+            text-decoration: underline; /* Adds underline on hover */
+        }
+
+        footer {
+            text-align: center;
+            color: #727f80;
+            padding: 40px 0;
+            margin-top: 60px;
+            border-top: 1px solid var(--line-color);
+            font-size: 0.9rem;
+        }
+
+        .contact-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 720px) {
+            .container {
+                padding: 0 20px;
+                margin: 40px auto;
+            }
+
+            .profile-section {
+                padding: 30px 20px;
+            }
+
+            .bio-section {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="profile-section">
+            <img src="images/your-photo.jpeg" alt="Melih İnecik" class="profile-img">
+            <h1 data-i18n="name">
+              Melih İnecik
+              <span class="sr-only">Melih İnecik, Melih İnecik</span>
+            </h1>
+            <style>
+            /* Re-usable helper — hidden from sighted users,
+               but still in the DOM for crawlers and screen readers */
+            .sr-only {
+              position:absolute;
+              width:1px; height:1px; margin:-1px; padding:0;
+              overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap;
+              border:0;
+            }
+            </style>
+            <p class="position" data-i18n="position"></p>
+        </section>
+
+
+        <div class="social-links">
+            <a href="https://tr.linkedin.com/in/melih1necik" class="social-link" target="_blank" data-i18n="linkedin"></a>
+            <a href="https://www.instagram.com/melihinecik" class="social-link" target="_blank" data-i18n="instagram"></a>
+            <a href="https://twitter.com/m_inecik" class="social-link" target="_blank" data-i18n="twitter"></a>
+        </div>
+
+        <footer>
+          <p data-i18n="footer_p1"></p>
+          <p data-i18n="footer_p2" class="address"></p>
+        </footer>
+    </div>
+
+
+    <script>
+    /*
+     |------------------------------------------------------------------
+     |  i18n initialisation – wrapped in an IIFE so we don’t pollute the
+     |  global scope every time the browser or a hot‑reload re‑executes
+     |  this script.  It also guards against duplicate variable errors
+     |  by checking whether we already placed our objects on `window`.
+     |------------------------------------------------------------------
+    */
+    (() => {
+        // Prevent the whole block from running twice (e.g. in live reload)
+        if (window.i18nInitialised) return;
+        window.i18nInitialised = true;
+
+        /* ----------------- TRANSLATION DICTIONARY ----------------- */
+        // Attach to `window` only if it isn’t there yet to avoid the
+        // "Can't create duplicate variable" SyntaxError.
+        window.translations = window.translations || {
+            tr: {
+                title:  "Melih İnecik",
+                name: "Melih İnecik",
+                position: " ",
+                bio1: ` `,
+                linkedin: "LinkedIn",
+                instagram: "Instagram",
+                twitter: "Twitter",
+                footer_p1: "© 2025 Melih İnecik. All rights reserved.",
+                footer_p2: `Email: <a href="mailto:minecik2001@gmail.com"
+                                      class="contact-link">minecik2001@gmail.com</a>`
+            },
+        }; 
+
+        const translations = window.translations; // shorthand
+
+        /* ----------------- LANGUAGE HANDLER ----------------- */
+        function setLanguage(lang){
+            const dict = translations[lang] || translations.tr;
+
+            /* new line ↓ */
+            document.title = dict.title || "Melih İnecik";
+
+            document.documentElement.lang = lang;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            el.innerHTML = dict[key] || key;
+            });
+            document.querySelectorAll('.lang-btn')
+                  .forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
+            localStorage.setItem('lang', lang);
+        }
+
+        // Initial load: use previously chosen language or browser default
+        const userLang = localStorage.getItem('lang') || (navigator.language || 'tr').slice(0,2);
+        setLanguage(['tr'].includes(userLang) ? userLang : 'tr');
+
+        // Button click events
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+        });
+    })();
+    </script>
+</body>
+</html>

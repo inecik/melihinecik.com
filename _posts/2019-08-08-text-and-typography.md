@@ -3,10 +3,10 @@ title: Sik kafali Melih
 description: >-
   Melih'in yavsakligi ile ilgili
 date: 2025-05-09 20:55:00 +0800
-categories: [Siir, Edebiyat]
-tags: [giris]
-pin: true
-toc: false
+categories: [Edebiyat, Şiir]
+tags: [şiir, edebiyat, aşk, yalnızlık]
+pin: false
+toc: true
 comments: false
 ---
 
